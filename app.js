@@ -125,7 +125,7 @@ app.options('/movies/id:', (req,res)=>{
     }
     res.send(200)
 })
-const PORT = process.env.PORT ?? 1234
+const PORT = process.env.PORT ?? 1234 //si me viene por variable de entorno el puerto usalo y sino y sino usa 1234
 app.listen(PORT,()=>{
     console.log(`server listening en port: http://localhost:${PORT}`)
 })
