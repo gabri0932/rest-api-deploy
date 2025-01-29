@@ -1,0 +1,18 @@
+
+
+
+
+
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+    "title": "goku",
+    "year": 2011,
+    "director": "gabriel",
+    "duration": 230,
+    "poster": "https://img.goku.com/imagen.png",
+    "genre": [
+        "Crime",
+        "Anime"]
+}
